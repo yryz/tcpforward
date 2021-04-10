@@ -2,6 +2,8 @@
 
 可以用来作为内网跳板，也可以用来对普通tcp增加tls安全认证。
 
+`go get github.com/yryz/tcpforward`
+
 # EXAMPLES
 **tcp -> tcp**
 local: `tcpforward -t tcp -l 127.0.0.1:1080 -T tcp -P 192.168.10.1:1080`
